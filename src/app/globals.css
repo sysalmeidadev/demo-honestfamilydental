@@ -27,3 +27,8 @@ body {
   background-color: var(--background);
   color: var(--foreground);
 }
+
+/* Forcibly hide Next.js 15 'N' Dev Indicator Logo */
+nextjs-portal {
+  display: none !important;
+}
